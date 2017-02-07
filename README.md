@@ -36,12 +36,12 @@ wevent.Timestamp = 1484334934086L;
 var visitor = new WoopraVisitor(WoopraVisitor.Email, "vk@mybusiness.com");
 
 // In both cases, then add visitor properties:
-visitor.SetProperty("email", i + "johndoe@mybusiness.com");
+visitor.SetProperty("email", "johndoe@mybusiness.com");
 
 //This step is not required if the visitor has been instantiated by email
-visitor.SetProperty("name", "John Doe" + i);
-visitor.SetProperty("company", "My Business" + i);
-visitor.SetIpAddress("192.168.110.18" + i);
+visitor.SetProperty("name", "John Doe" );
+visitor.SetProperty("company", "My Business" );
+visitor.SetIpAddress("192.168.110.18" );
 visitor.SetUserAgent("Chrome");
 ```	    
 And you're ready to start tracking events:
