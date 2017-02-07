@@ -7,9 +7,7 @@ The first step is to setup the tracker SDK. To do so, configure the tracker inst
 
 
 ``` // Create tracker
-
 var woopra = new WoopraTracker("mybusiness.com");
-
 ```
 
 You can also configure the timeout (in milliseconds, defaults to 30000 - equivalent to 30 seconds) after which the event will expire and the visit will be marked as offline:
