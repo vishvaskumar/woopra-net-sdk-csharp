@@ -24,25 +24,25 @@ To track an event, you should first create an instance of WoopraEvent...
 
 // create event object
 ```
- 	var wevent = new WoopraEvent("play");
-	wevent.SetProperty("artist", "Dave Brubeck");
-	wevent.SetProperty("song", "Take Five");
-	wevent.SetProperty("genre", "Jazz");
-	wevent.Timestamp = 1484334934086L;		
+var wevent = new WoopraEvent("play");
+wevent.SetProperty("artist", "Dave Brubeck");
+wevent.SetProperty("song", "Take Five");
+wevent.SetProperty("genre", "Jazz");
+wevent.Timestamp = 1484334934086L;		
 ```
 
 // WoopraVisitor identified by email:
 ```
-            var visitor = new WoopraVisitor(WoopraVisitor.Email, "vk@mybusiness.com");
+var visitor = new WoopraVisitor(WoopraVisitor.Email, "vk@mybusiness.com");
 
-            // In both cases, then add visitor properties:
-            visitor.SetProperty("email", i + "johndoe@mybusiness.com");
+// In both cases, then add visitor properties:
+visitor.SetProperty("email", i + "johndoe@mybusiness.com");
 
-            //This step is not required if the visitor has been instantiated by email
-            visitor.SetProperty("name", "John Doe" + i);
-            visitor.SetProperty("company", "My Business" + i);
-            visitor.SetIpAddress("192.168.110.18" + i);
-            visitor.SetUserAgent("Chrome");
+//This step is not required if the visitor has been instantiated by email
+visitor.SetProperty("name", "John Doe" + i);
+visitor.SetProperty("company", "My Business" + i);
+visitor.SetIpAddress("192.168.110.18" + i);
+visitor.SetUserAgent("Chrome");
 ```	    
 And you're ready to start tracking events:
 ```
