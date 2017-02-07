@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net.woopra.sdk", "net.woopra.sdk\net.woopra.sdk.csproj", "{89D021BE-3BA8-4D18-AC5B-7AE8D6C28CEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net.woopra.test", "net.woopra.test\net.woopra.test.csproj", "{6F798BC5-F6A3-454B-9253-8FF0A0C6DA12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89D021BE-3BA8-4D18-AC5B-7AE8D6C28CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D021BE-3BA8-4D18-AC5B-7AE8D6C28CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D021BE-3BA8-4D18-AC5B-7AE8D6C28CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D021BE-3BA8-4D18-AC5B-7AE8D6C28CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F798BC5-F6A3-454B-9253-8FF0A0C6DA12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F798BC5-F6A3-454B-9253-8FF0A0C6DA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F798BC5-F6A3-454B-9253-8FF0A0C6DA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F798BC5-F6A3-454B-9253-8FF0A0C6DA12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
