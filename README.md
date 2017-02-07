@@ -37,3 +37,5 @@ To track an event, you should first create an instance of WoopraEvent...
 And you're ready to start tracking events:
 
 woopra.Track(visitor, wevent);
+
+and you are done
